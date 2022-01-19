@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+    <b>Od:</b> {{ contact.firstName }} {{ contact.lastName }}<br>
+    <b>Adrest e-mail:</b> {{ contact.email }}<br>
+    <b>Temat:</b> {{ contact.subiect }}<br>
+    <b>Wiadomość:</b> <br>
+    {{ contact.message | nl2br }}<br>
+</body>
+</html>
